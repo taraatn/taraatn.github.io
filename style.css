@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/93/97/c3/9397c38fba9a2967c5a5d98b6579bb0d.jpg');
+    background-attachment:fixed; 
+    background-size:cover;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+body > header > nav > ul {
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body > header {
+    background-color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > form {
+    text-align: center;
+}
+
+body > footer {
+    background-color: #6dacc0;
+    margin: 0px;
+    padding: 2px;
+}
+
+#main_content {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    display: flex;
+}
+
+#main_content > aside {
+    width: 100%;
+    padding: 10px 50px 0px 0px;
+}
+
+body > main > article > ol {
+    text-align:left;
+}
+
+#logo {
+    font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.navbutton {
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+body > main > form {
+    text-align: center;
+}
+
+#left {
+    grid-area: left;
+}
+
+#right > article {
+    grid-area: right;
+}
+
+
+#footer_ul {
+    margin-left: 12px;
+    display: grid;
+    grid-template-areas: 'left right';
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+}
+
+body > footer > h2 {
+    color: white
+}
+
+.footerbutton {
+    color: white
+}
+
+#main_content > article > footer > img{
+    width: 100%;
+    height: auto;
+}
